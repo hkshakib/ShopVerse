@@ -91,6 +91,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #Icon {
@@ -114,8 +115,8 @@
 
 
 .Avatar img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 30px;
     cursor: pointer;
     position: relative;
