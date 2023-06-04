@@ -1,0 +1,7 @@
+.Layout{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    background: #f2f4f8;
+}

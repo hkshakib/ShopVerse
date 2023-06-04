@@ -1,0 +1,147 @@
+.Navbar {
+    flex-basis: 10%;
+    display: flex;
+    background: #FFFFFF;
+    /* border-bottom: 1px solid grey; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Container {
+    display: flex;
+    flex-basis: 100%;
+    height: 80px;
+}
+
+.BrandLogo {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BrandLogo img {
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Search {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Form {
+  display: flex;
+}
+
+.Search input[type="text"] {
+  padding: 5px 30px 5px 30px;
+  border: 1px solid #9b9494;
+  border-radius: 50px;
+  width: 200px;
+}
+
+.SearchIcon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+.NavItem {
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home, .Product, .Promo, .ContactUs{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(59, 54, 54);
+    cursor: pointer;
+}
+
+.Home, .Product, .Promo {
+    border-right: 1px solid grey;
+}
+
+.Icon {
+    margin-left: 15px; 
+}
+
+
+.CartItem {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotificationIcon, .MessageIcon, .GiftIcon, .CartIcon{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Icon {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.Profile {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Avatar {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Avatar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.CartItem::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10%;
+    width: 1px;
+    background-color: #9b9494;
+}
+  
+.Profile {
+    position: relative; 
+}
+  
+.Profile::before {
+    content: "";
+    position: absolute;
+    left: 0px; 
+    top: 30px;
+    height: 25%;
+    width: 1px;
+    background-color: #9b9494;
+}
