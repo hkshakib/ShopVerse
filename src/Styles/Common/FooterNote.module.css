@@ -1,0 +1,30 @@
+.FooterNote {
+    flex-basis: 1;
+    display: flex;
+    background: #2A3842;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+}
+
+
+.DreamNote {
+    flex-basis: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MenuItem{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home, .Product, .Promo,.HereYouGo {
+    flex-basis: 10%;
+    color: #f2f2f2;
+    cursor: pointer;
+}

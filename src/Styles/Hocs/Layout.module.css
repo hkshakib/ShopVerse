@@ -5,3 +5,21 @@
     /* border: 1px solid red; */
     background: #f2f4f8;
 }
+
+.Container {
+    flex-basis: 75%;
+    display: flex;
+}
+
+.Navbar {
+    flex-basis: 10%;
+}
+
+.NotificationBar {
+    flex-basis: 5%;
+}
+
+.Footer{
+    flex-basis: 10%;
+    border: 1px solid red;
+}

@@ -1,0 +1,100 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D262D;
+    /* border: 1px solid red; */
+    color: grey;
+    padding: 10px 100px 10px 300px;
+}
+
+.FooterContent {
+    flex-basis: 70%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Content, .Information, .Legal, .SocialMedia {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Legal {
+    flex-direction: column;
+}
+
+.LegalContainer {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Support {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Title {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.FootMenu {
+    /* flex: 1; */
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.FootMenuSecondary {
+    flex: 1;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.CompanyRight {
+    flex-basis: 20%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.CopyRightText{
+    flex-basis: 100%;
+    display: flex;
+}
+
+.CopyRightText img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.FooterContent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10%;
+    width: 1px;
+    background-color: #9b9494;
+}
+  
+.CompanyRight {
+    position: relative; 
+}
+  
+.CompanyRight::before {
+    content: "";
+    position: absolute;
+    left: 0px; 
+    bottom: 30px;
+    height: 1px;
+    width: 90%;
+    background-color: #9b9494;
+}
+
+
