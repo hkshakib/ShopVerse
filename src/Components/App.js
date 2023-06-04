@@ -1,10 +1,10 @@
-
-
-function App() {
+import React from 'react';
+import Layout from './Hocs/Layout';
+const App = () => {
   return (
-    <div className="App">
-
-    </div>
+    <Layout>
+      
+    </Layout>
   );
 }
 

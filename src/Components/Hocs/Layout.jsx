@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Navbar from "../Common/Navbar.jsx";
+import Footer from '../Common/Footer.jsx';
+import NotificationBar from '../Common/NotificationBar.jsx';
 
-function Layout() {
+const Layout = (props) => {
   return (
-    <div>Layout</div>
+    <div>
+      <NotificationBar />
+      <Navbar />
+      {props.children}
+      <Footer />
+    </div>
   )
 }
 
