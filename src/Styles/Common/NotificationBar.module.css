@@ -1,13 +1,79 @@
 .NotificationBar {
     display: flex;
     justify-content: center;
-    background: Blue;
+    background: #0C4B3A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
 }
 
-.NotificationBar p{
+.PhoneNumber {
+    flex-basis: 10%;
     display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #f2f2f2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Offer{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+}
+
+.Location {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+}
+
+
+.Discount {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ShopNow {
+    flex-basis: 40%;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+.Discount::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+  
+.ShopNow {
+    position: relative; 
+}
+  
+.ShopNow::before {
+    content: "";
+    position: absolute;
+    left: -10px; 
+    top: 0px;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+.Language {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    color: #f2f2f2;
+    cursor: pointer;
 }
